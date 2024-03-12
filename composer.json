@@ -1,0 +1,13 @@
+{
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Mvc\\Core\\": "core/",
+      "App\\Migration\\": "migration/"
+    }
+  },
+  "require": {
+    "ramsey/uuid": "^4.7",
+    "phpmailer/phpmailer": "^6.9"
+  }
+}
